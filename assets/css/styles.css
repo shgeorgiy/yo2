@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Tab labels */
+.tab-label {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+/* Active tab label */
+.tab-label.active {
+    background-color: white;
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Active tab content */
+.tab-content.active {
+    display: block;
+}
